@@ -145,13 +145,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Pagination
-        nextPage={currentPageUrl < episodes.info?.pages ? nextPage : null}
-        prevPage={episodes.info?.prev ? prevPage : null}
-        goToPage={goToPage}
-        pages={episodes.info?.pages}
-        currentPage={currentPageUrl}
-      />
     </div>
   )
 }
